@@ -1,5 +1,5 @@
 {
-    "name": "phpgangsta/googleauthenticator",
+    "name": "delboy1978uk/google-auth",
     "description": "Google Authenticator 2-factor authentication",
     "version": "1.0.0",
     "type": "library",
@@ -7,24 +7,20 @@
     "license": "BSD-4-Clause",
     "authors": [
         {
-            "name": "Michael Kliewe",
-            "email": "info@phpgangsta.de",
-            "homepage": "http://www.phpgangsta.de/",
-            "role": "Developer"
+            "name": "Derek Stephen McLean",
+            "email": "delboy1978uk@gmail.com",
+            "homepage": "http://delboy1978uk.wordpress.com"
         }
     ],
-    "support": {
-        "source": "https://github.com/PHPGangsta/GoogleAuthenticator",
-        "issues": "https://github.com/PHPGangsta/GoogleAuthenticator/issues"
-    },
     "require": {
         "php": ">=5.3"
     },
-	"autoload": {
-		"classmap": ["PHPGangsta/GoogleAuthenticator.php"]
-	}
+    "autoload": {
+        "psr-4": {
+            "Del\\Auth\\": "src/"
+        }
+    },
+    "require-dev": {
+        "codeception/codeception": "^2.3"
+    }
 }
-
-
-
-
