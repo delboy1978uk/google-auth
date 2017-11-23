@@ -11,6 +11,8 @@ For a secure installation you have to make sure that used codes cannot be reused
 limit the number of verifications, to fight against brute-force attacks. For example you could limit the amount of
 verifications to 10 tries within 10 minutes for one IP address (or IPv6 block). It depends on your environment.
 
+Forked from PHPGangsta's lib - see copyright notice.
+
 ## installation
 Installation is via composer
 ```
@@ -36,12 +38,8 @@ $oneCode = $ga->getCode($secret);
 echo "Checking Code '$oneCode' and Secret '$secret':\n";
 
 $checkResult = $ga->verifyCode($secret, $oneCode, 2);    // 2 = 2*30sec clock tolerance
-if ($checkResult) {
-    echo 'OK';
-} else {
-    echo 'FAILED';
-}
 ```
+`$checkResult` is a boolean true/false
 Running the script provides the following output:
 ```
 Secret is: OQB6ZZGYHCPSX4AK
