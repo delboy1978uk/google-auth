@@ -1,5 +1,8 @@
-Google Authenticator PHP class
-==============================
+# google-auth
+
+[![Latest Stable Version](https://poser.pugx.org/delboy1978uk/google-auth/v/stable)](https://packagist.org/packages/delboy1978uk/google-auth) [![Total Downloads](https://poser.pugx.org/delboy1978uk/google-auth/downloads)](https://packagist.org/packages/delboy1978uk/google-auth) [![Latest Unstable Version](https://poser.pugx.org/delboy1978uk/google-auth/v/unstable)](https://packagist.org/packages/delboy1978uk/google-auth) [![License](https://poser.pugx.org/delboy1978uk/google-auth/license)](https://packagist.org/packages/delboy1978uk/google-auth)<br />
+[![Build Status](https://travis-ci.org/delboy1978uk/google-auth.png?branch=master)](https://travis-ci.org/delboy1978uk/google-auth) [![Code Coverage](https://scrutinizer-ci.com/g/delboy1978uk/google-auth/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/delboy1978uk/google-auth/?branch=master) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/delboy1978uk/google-auth/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/delboy1978uk/google-auth/?branch=master)<br />
+
 
 * Copyright (c) 2012-2016, [http://www.phpgangsta.de](http://www.phpgangsta.de)
 * Author: Michael Kliewe, [@PHPGangsta](http://twitter.com/PHPGangsta) and [contributors](https://github.com/PHPGangsta/GoogleAuthenticator/graphs/contributors)
