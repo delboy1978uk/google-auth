@@ -3,13 +3,6 @@
 [![Latest Stable Version](https://poser.pugx.org/delboy1978uk/google-auth/v/stable)](https://packagist.org/packages/delboy1978uk/google-auth) [![Total Downloads](https://poser.pugx.org/delboy1978uk/google-auth/downloads)](https://packagist.org/packages/delboy1978uk/google-auth) [![Latest Unstable Version](https://poser.pugx.org/delboy1978uk/google-auth/v/unstable)](https://packagist.org/packages/delboy1978uk/google-auth) [![License](https://poser.pugx.org/delboy1978uk/google-auth/license)](https://packagist.org/packages/delboy1978uk/google-auth)<br />
 [![Build Status](https://travis-ci.org/delboy1978uk/GoogleAuthenticator.png?branch=master)](https://travis-ci.org/delboy1978uk/GoogleAuthenticator) [![Code Coverage](https://scrutinizer-ci.com/g/delboy1978uk/GoogleAuthenticator/badges/coverage.png?b=master)](https://scrutinizer-ci.com/g/delboy1978uk/GoogleAuthenticator/?branch=master) [![Scrutinizer Code Quality](https://scrutinizer-ci.com/g/delboy1978uk/GoogleAuthenticator/badges/quality-score.png?b=master)](https://scrutinizer-ci.com/g/delboy1978uk/GoogleAuthenticator/?branch=master)<br />
 
-
-* Copyright (c) 2012-2016, [http://www.phpgangsta.de](http://www.phpgangsta.de)
-* Author: Michael Kliewe, [@PHPGangsta](http://twitter.com/PHPGangsta) and [contributors](https://github.com/PHPGangsta/GoogleAuthenticator/graphs/contributors)
-* Licensed under the BSD License.
-
-[![Build Status](https://travis-ci.org/PHPGangsta/GoogleAuthenticator.png?branch=master)](https://travis-ci.org/PHPGangsta/GoogleAuthenticator)
-
 This PHP class can be used to interact with the Google Authenticator mobile app for 2-factor-authentication. This class
 can generate secrets, generate codes, validate codes and present a QR-Code for scanning the secret. It implements TOTP 
 according to [RFC6238](https://tools.ietf.org/html/rfc6238)

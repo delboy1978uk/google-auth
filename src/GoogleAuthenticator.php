@@ -2,6 +2,8 @@
 
 namespace Del\Auth;
 
+use Exception;
+
 class GoogleAuthenticator
 {
     protected $_codeLength = 6;
