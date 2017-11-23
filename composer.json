@@ -17,7 +17,8 @@
     },
     "autoload": {
         "psr-4": {
-            "Del\\Auth\\": "src/"
+            "Del\\Auth\\": "src/",
+            "DelTesting\\": "tests/unit/"
         }
     },
     "require-dev": {
